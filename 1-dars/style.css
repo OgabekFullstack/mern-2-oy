@@ -15,7 +15,7 @@ body {
     padding: 25px;
     margin-left: 100px;
 }
-.btns .btn {
+.btns button {
     width: 60px;
     height: 30px;
     border: none;
@@ -26,9 +26,11 @@ body {
     font-weight: 600;
     margin-left: 100px;
 }
-.active {
-    background-color: brown;
+.btns button:hover, .btns button.active {
+    background-color: red;
+    color: #c4c4c4;
 }
+
 .list {
     padding: 20px;
 }

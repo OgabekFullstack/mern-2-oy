@@ -39,9 +39,9 @@ window.addEventListener("DOMContentLoaded", () => {
 });
 
 // next render
-document.querySelectorAll(".btn").forEach((btn) => {
+document.querySelectorAll("button").forEach((btn) => {
     btn.addEventListener("click", (e) => {
-        document.querySelectorAll(".btn").forEach((e) => {
+        document.querySelectorAll("button").forEach((e) => {
             e.classList.remove("active")
         });
         e.target.classList.add("active");
