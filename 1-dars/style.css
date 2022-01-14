@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(75, 116, 155);
+}
+.container {
+    width: 90%;
+    margin: 15px auto;
+}
+.btns {
+    width: 100%;
+    padding: 25px;
+    margin-left: 100px;
+}
+.btns .btn {
+    width: 60px;
+    height: 30px;
+    border: none;
+    background-color: rgb(81, 255, 0);
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 100px;
+}
+.active {
+    background-color: brown;
+}
+.list {
+    padding: 20px;
+}
+.list .list-text {
+    color: #fff;
+    list-style: decimal-leading-zero;
+    font-size: 16px;
+    font-weight: 600;
+}
+
