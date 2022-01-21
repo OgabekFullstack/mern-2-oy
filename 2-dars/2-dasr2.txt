@@ -1,0 +1,17 @@
+Promise
+resolve - ijobiy
+reject - salbiy
+pending - kutish holati
+callback hell  - colbek do'zohi
+
+// async/ await 
+async funksiyalar oldidan ishlatiladi 
+
+try {
+
+} catch() {
+
+} finally {
+
+}
+// try ni ichidagi hammasiga urinib ko'radi agar error chiqsa catch ga o'tib ketadi, finally try yoki catch bo'lsa ham ishlayveradi
