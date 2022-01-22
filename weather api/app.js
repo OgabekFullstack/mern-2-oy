@@ -1,8 +1,13 @@
-svgElement = document.querySelector("svg")
+svgElement = document.querySelector("svg");
 
 svgElement.querySelectorAll("path").forEach(region => {
+
     region.addEventListener("click", e => {
-        
+
+        svgElement.querySelectorAll("path").forEach(region => {
+            region.classList.remove("active");
+        });
+        region.classList.add("active");
 
         let title = region.getAttribute("title");
 
@@ -28,6 +33,7 @@ function getWeather(region) {
     return new Promise((resolve, reject) => {
         
         let response = fetch(`https://api.openweathermap.org/data/2.5/weather?q=${region}&appid=5758ba24f769ac3fb60d2f74e65bac91`);
+        
         response.then(function(data) {
             data.json().then(function(weather) {
                 if(weather.cod ===404) {
