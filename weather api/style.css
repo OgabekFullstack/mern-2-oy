@@ -11,6 +11,7 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 svg path {
     cursor: pointer;
 }
@@ -21,8 +22,14 @@ svg path:hover {
     fill: rgb(37, 192, 192);
 }
 .region {
-    margin: 20px 30px;
     font-size: 24px;
     font-weight: 600;
     color: #EB6E4B;
+}
+img {
+    width: 50px;
+    height: auto;
+}
+.p {
+    font-size: 14px;
 }

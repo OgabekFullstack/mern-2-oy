@@ -28,6 +28,8 @@ document.querySelector('form').addEventListener('submit', async function(e) {
        
     } catch(e) {
         document.querySelector(".repository").innerHTML = "<h1>User not found</h1>"
+        document.querySelector('img').src = "";
+        document.querySelector(".username").innerHTML = ""
     };
 });
 
