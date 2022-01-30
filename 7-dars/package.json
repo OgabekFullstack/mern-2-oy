@@ -1,0 +1,12 @@
+{
+  "name": "7-dars",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+      "start": "node ./hometask/index.js",
+      "dev": "nodemon ./hometask/index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
