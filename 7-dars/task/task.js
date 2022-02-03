@@ -39,8 +39,8 @@ const server  = http.createServer(async (req, res) => {
                 res.writeHead(400, {
                     "Content-Type": "text/json charset=utf-8" 
                 })
-                
-                res.end(JSON.stringify({ "ok": "false", "message": "user already exist"}))
+
+                res.end(JSON.stringify({ "ok": "false", "message": "User already exist"}))
             } else {
                 res.writeHead(201, {
                     "Content-Type": "text/json; charset=utf-8"
@@ -52,7 +52,7 @@ const server  = http.createServer(async (req, res) => {
                 })
 
                 await fs.writeFile("./data.json", JSON.stringify({ users }))
-                res.end(JSON.stringify(users))
+                res.end(JSON.stringify( {ok: true, users }))
             }
         })
     }
