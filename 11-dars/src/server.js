@@ -5,8 +5,8 @@ const CookieParser = require("cookie-parser")
 
 const { PORT } = require("../config")
 
-const cookieParser = require("cookie-parser")
 const morgan = require("morgan")
+
 const { default: slugify } = require("slugify")
 
 const app = express()
