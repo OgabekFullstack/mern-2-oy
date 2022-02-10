@@ -1,5 +1,5 @@
 {
-  "name": "10-dars",
+  "name": "11-dars",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,13 +7,14 @@
     "start": "node ./src/server.js",
     "dev": "nodemon ./src/server.js"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cookie-parser": "^1.4.6",
     "dotenv": "^16.0.0",
-    "ejs": "^3.1.6",
     "express": "^4.17.2",
-    "jsonwebtoken": "^8.5.1"
+    "morgan": "^1.10.0",
+    "slugify": "^1.6.5"
   }
 }
